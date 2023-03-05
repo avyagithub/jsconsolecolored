@@ -1,0 +1,25 @@
+{
+  "name": "jsconsolecolored",
+  "version": "1.0.0",
+  "description": "A library to show console log in colored",
+  "main": "lib/index.js",
+  "types":"lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepack": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avyagithub/jsconsolecolored.git"
+  },
+  "author": "Avdhoot ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/avyagithub/jsconsolecolored/issues"
+  },
+  "homepage": "https://github.com/avyagithub/jsconsolecolored#readme",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "files": ["lib/**/*"]
+}
